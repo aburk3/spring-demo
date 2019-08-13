@@ -9,6 +9,7 @@ public class CricketCoach implements Coach {
 		System.out.println("CricketCoach: inside no-arg constructor");
 	}
 	
+	// our setter method
 	public void setFortuneService(FortuneService fortuneService) {
 		this.fortuneService = fortuneService;
 	}
