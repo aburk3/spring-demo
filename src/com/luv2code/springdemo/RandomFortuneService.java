@@ -11,6 +11,9 @@ public class RandomFortuneService implements FortuneService {
 			"The journey is the reward"
 	};
 	
+	// create a random number generator
+	private Random myRandom = new Random();
+	
 	@Override
 	public String getFortune() {
 		return null;
